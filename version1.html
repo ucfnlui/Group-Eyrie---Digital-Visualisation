@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regenerated Parks In Brooklyn</title>
+	<style>
+		/* 设置页眉目录栏的样式 */
+		#header {
+			background-color: #1C5348;
+			color: #fff;
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		/* 设置下拉栏的样式 */
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+			top: 100%; /* 将下拉框的位置向下移动 */
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+		/* 设置小箭头的样式 */
+		.dropdown:not(:first-child)::after {
+			content: "\25BC";
+			font-size: 0.5em;
+			color: #ADDB75;
+			margin-left: 5px;
+		}
+
+		/* 去掉下划线 */
+		#header a {
+			float: left;
+			text-align: center;
+			text-decoration: none;
+			font-size: 18px;
+			color: #ADDB75;
+		}
+
+		/* 改变鼠标悬停的字体颜色 */
+		#header a:hover {
+			color: #417D58;
+		}
+
+		
+
+		/* 改变鼠标悬停的字体颜色 */
+		#header a:first-child:hover {
+			color: #417D58;
+		}
+
+		/* 设置鼠标悬停时下拉框链接的颜色 */
+		.dropdown-content a:hover {
+			color: #417D58;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1>Regenerated Parks In Brooklyn</h1>
+		<div href="#" style="color:white;font-size:18px">Home</div>
+		<div class="dropdown">
+			<a href="#">Location</a>
+			<div class="dropdown-content">
+				<a href="#">Brooklyn Bridge Park </a>
+				<a href="#">Marine Park </a>
+				<a href="#">Shirley Chisholm State Park </a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<a href="#">Impacts</a>
+			<div class="dropdown-content">
+				<a href="#">Land Use</a>
+				<a href="#">Population and demographics</a>
+				<a href="#">Social Benefits</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<a href="#">Details</a>
+			<div class="dropdown-content">
+				<a href="#">History</a>
+				<a href="#">Design</a>
+				<a href="#">Construction</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<a href="#">More</a>
+			<div class="dropdown-content">
+				<a href="#">Events</a>
+				
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
